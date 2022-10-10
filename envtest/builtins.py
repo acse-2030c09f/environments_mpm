@@ -8,7 +8,7 @@ def smooth_image(a, sigma=1):
 	return gaussian_filter(a, sigma=sigma)
 
 def rand_array(shape):
-    return np.random.rand(*shape)
+	return np.random.rand(*shape)
 
 def my_mat_solve(A, b):
 	return A.inv()*b
